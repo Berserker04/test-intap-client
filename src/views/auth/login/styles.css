@@ -1,0 +1,27 @@
+.login{
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("../../../assets/images/bg_login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_opacity{
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000050;
+  display: grid;
+  place-items: center;
+}
+
+.login_form{
+  margin: 0 auto;
+  display: grid;
+  height: 50%;
+  place-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+}

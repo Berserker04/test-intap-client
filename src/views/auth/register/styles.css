@@ -1,0 +1,30 @@
+.register{
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("../../../assets/images/bg_login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_opacity{
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000050;
+  display: grid;
+  place-items: center;
+}
+
+.register_form{
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.form_inputs {
+  margin-bottom: 10px;
+}
