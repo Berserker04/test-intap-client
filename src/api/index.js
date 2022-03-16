@@ -1,8 +1,8 @@
 import axios from "axios";
 
-export const URL_SERVER = "http://localhost:8000";
+// export const URL_SERVER = "http://localhost:8000";
+export const URL_SERVER = "http://intap-api.nuquitours.com.co";
 export const URL_API = `${URL_SERVER}/api`;
-export const URL_IMAGE = `${URL_SERVER}/storage/uploads/images/`;
 
 class Api {
   GET = async (url, config = {}) => {

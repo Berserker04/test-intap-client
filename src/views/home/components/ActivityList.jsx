@@ -31,6 +31,11 @@ export default function ActivityList({ activities, getActivities }) {
         <div>
             <h2>Lista de actividades</h2>
             {
+                !activities.length && (
+                    <p>No hay actividades registradas</p>
+                )
+            }
+            {
                 activities.map((activity, index) => (
                     <Accordion key={index} expanded={expanded === activity.id} onChange={handleChange(activity.id)}>
                         <AccordionSummary
